@@ -64,7 +64,7 @@ function closemenu() {
 }
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["A Full Stack Developer", "A Bike Enthusiast", "A Traveller", "A Node.js Backend Developer"],
+    strings: ["A Full Stack Developer", "A Node.js Backend Developer", "With 6 months of expirience"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
