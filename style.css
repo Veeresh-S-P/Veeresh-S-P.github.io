@@ -192,10 +192,17 @@ nav .fas {
 }
 
 #home .home-content .text-2 {
-    font-size: 70px;
-    font-weight: 600;
-    color: #90A0D9;
+    font-size: 28px; /* Adjust size if needed */
+    font-weight: 500;
+    color: #B4BDDD;
+    margin-top: 10px; /* Adds space between name & experience */
 }
+#home .home-content .text-2:nth-of-type(2) {
+    font-size: 22px; /* Smaller size for experience text */
+    color: #90A0D9;
+    font-weight: 400;
+}
+
 
 #home .home-content .text-3 {
     font-size: 25px;
