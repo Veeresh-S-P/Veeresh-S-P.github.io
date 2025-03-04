@@ -67,7 +67,9 @@ var typed = new Typed(".typing", {
     strings: ["A Full Stack Developer", "A Node.js Backend Developer", "With 6 months of expirience"],
     typeSpeed: 100,
     backSpeed: 60,
-    loop: true,
+    backDelay: 1500,  // Time before backspacing (increased to 1.5 sec)
+    startDelay: 500,  // Delay before typing starts (optional)
+    loop: true        // Keep looping the text
 })
 
 
